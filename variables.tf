@@ -24,4 +24,6 @@ variable "NSG" {}
 variable "VM" {}
 variable "hostname" {}
 variable "username" {}
-variable "passwd" {}
+variable "passwd" {
+sensitive = true
+}
