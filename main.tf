@@ -127,6 +127,7 @@ resource "azurerm_virtual_machine_extension" "azure_policy" {
   auto_upgrade_minor_version = true
 }
 
+/*
 resource "azurerm_virtual_machine_extension" "mma" {
   name                       = "log-analytics"
   virtual_machine_id         = azurerm_windows_virtual_machine.VM.id
@@ -135,6 +136,6 @@ resource "azurerm_virtual_machine_extension" "mma" {
   type_handler_version       = "1.0"
   auto_upgrade_minor_version = true
 }
-
+*/
 
 
