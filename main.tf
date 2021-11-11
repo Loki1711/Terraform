@@ -45,7 +45,7 @@ resource "azurerm_network_security_group" "NSG" {
   resource_group_name = azurerm_resource_group.RG.name
 
   security_rule {
-    name                       = "SSH"
+    name                       = "RDP"
     priority                   = 100
     direction                  = "Inbound"
     access                     = "Allow"
